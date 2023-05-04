@@ -1,0 +1,179 @@
+.first{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color:blueviolet ;
+    height: 70vh;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.links a{
+    color: black;
+    text-decoration: solid;
+    font-weight: normal;
+
+}
+.links :hover{
+    color: blue;
+    text-decoration: wavy;
+}
+
+.women{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* width: 0%; */
+}
+.first1{
+    position: relative;
+    left: 44%;
+    top: 10%;
+    color: white;
+    font-size: 3vw;
+}
+.allrunning{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    
+}
+.img2{
+    position: relative;
+    right: 8%;
+}
+.footer{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+}
+.dress{
+    width: 50%;
+    height: 50%;
+}
+.d{
+    width: 150%;
+}
+.lastwo{
+    width: 100%;
+}
+.discover{
+    width: 33%;
+    height: 10vh;
+    background-color: pink;
+    color: white;
+    border-style: hidden;
+}
+.view{
+    margin-left: 30%;
+    width: 25%;
+    height: 10vh;
+    background-color: palevioletred;
+    color: white;
+    border-style: hidden;
+}
+
+@media screen and (max-width: 768px){
+    body{
+   overflow-x: hidden;
+   overflow-y: scroll;
+   /* width: 100%; */
+   background-color: rgb(176, 176, 53);
+   font-family: 'Gloock', serif;
+font-family: 'Golos Text', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Noto Serif Lao', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+    }
+    .first{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        background-color:blueviolet ;
+        max-width: 100%;
+        height: 35vh;
+}
+.first1{
+    position: relative;
+    left: 44%;
+    top: 17%;
+    color: white;
+    font-size: 3vw;
+}
+.fly{
+    width: 80%;
+    position: relative;
+    top: 10%;
+}
+.discover{
+    width: 40%;
+    height: 2vh;
+    background-color: pink;
+    color: white;
+    border-style: hidden;
+    font-size: 2.3vw;
+}
+.links{
+    display: flex;
+    justify-content: left;
+    /* gap: 5%; */
+    font-size: 3vw;
+}
+.links a{
+    color: black;
+    text-decoration: solid;
+    font-weight: normal;
+
+}
+.links :hover{
+    color: blue;
+    text-decoration: wavy;
+}
+.scarlet{
+    width: 130%;
+}
+.women{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 90%;
+    font-size: 3vw;
+}
+.view{
+    margin-left: 30%;
+    width: 18%;
+    height: 3vh;
+    background-color: palevioletred;
+    color: white;
+    border-style: hidden;
+    font-size: 2vw;
+}
+.r1{
+    width: 50%;
+}
+.r2{
+    width: 50%;
+}
+.r3{
+    width: 50%;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    font-size: 2vw;
+    }
+    .img2{
+        position: relative;
+        left: 15%;
+    } 
+    #s{
+        
+        font-size: 1.5vw;
+    }
+    #e{
+        width: 90%;
+        font-size: 1em;
+    }
+}
