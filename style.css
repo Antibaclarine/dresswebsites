@@ -1,3 +1,4 @@
+
 .first{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -79,15 +80,6 @@ grid-template-columns: repeat(4,1fr);
    overflow-y: scroll;
    /* width: 100%; */
    background-color: rgb(176, 176, 53);
-   font-family: 'Gloock', serif;
-font-family: 'Golos Text', sans-serif;
-font-family: 'Lora', serif;
-font-family: 'Merriweather', serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Noto Serif', serif;
-font-family: 'Noto Serif Lao', serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
     }
     .first{
         display: grid;
